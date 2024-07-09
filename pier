@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Saco Oliveros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #004080;
+        }
+        .carrera {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"], .form-group input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #004080;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo-saco-oliveros.png" alt="Logo Saco Oliveros">
+        <h1>Universidad Saco Oliveros</h1>
+    </header>
+    <main>
+        <section id="carreras">
+            <h2>Carreras</h2>
+            <div class="carrera">
+                <h3>Ingeniería de Sistemas</h3>
+                <p>Desarrolla soluciones tecnológicas para el futuro.</p>
+            </div>
+            <div class="carrera">
+                <h3>Administración de Empresas</h3>
+                <p>Forma líderes empresariales con visión estratégica.</p>
+            </div>
+            <div class="carrera">
+                <h3>Medicina</h3>
+                <p>Capacitación integral en el campo de la salud.</p>
+            </div>
+            <!-- Agrega más carreras aquí -->
+        </section>
+        <section id="examen-admision">
+            <h2>Examen de Admisión</h2>
+            <form>
+                <div class="form-group">
+                    <label for="pregunta1">1. ¿Cuál es la capital de Perú?</label>
+                    <input type="text" id="pregunta1" name="pregunta1">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta2">2. ¿Quién escribió 'Cien años de soledad'?</label>
+                    <input type="text" id="pregunta2" name="pregunta2">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta3">3. ¿Cuánto es 7 + 5?</label>
+                    <input type="number" id="pregunta3" name="pregunta3">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta4">4. ¿Qué planeta es conocido como el planeta rojo?</label>
+                    <input type="text" id="pregunta4" name="pregunta4">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta5">5. ¿Cuál es el símbolo químico del agua?</label>
+                    <input type="text" id="pregunta5" name="pregunta5">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta6">6. ¿Quién pintó la Mona Lisa?</label>
+                    <input type="text" id="pregunta6" name="pregunta6">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta7">7. ¿Qué año comenzó la Segunda Guerra Mundial?</label>
+                    <input type="number" id="pregunta7" name="pregunta7">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta8">8. ¿Cuál es la fórmula del área de un triángulo?</label>
+                    <input type="text" id="pregunta8" name="pregunta8">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta9">9. ¿Qué continente tiene más países?</label>
+                    <input type="text" id="pregunta9" name="pregunta9">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta10">10. ¿Quién descubrió la penicilina?</label>
+                    <input type="text" id="pregunta10" name="pregunta10">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta11">11. ¿Qué idioma se habla en Brasil?</label>
+                    <input type="text" id="pregunta11" name="pregunta11">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta12">12. ¿Cuál es el océano más grande del mundo?</label>
+                    <input type="text" id="pregunta12" name="pregunta12">
+                </div>
+                <div class="form-group">
+                    <label for="pregunta13">13. ¿Qué país es conocido como la tierra del sol naciente?</label>
+                    <input type="text" id="pregunta13" name="pregunta13">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
